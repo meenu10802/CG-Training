@@ -20,7 +20,7 @@ namespace CGTraining.Day2.ExtraQuestions
             {
                 Console.WriteLine("Order Rejected");
             }
-            Console.WriteLine("Git task 3");
+            Console.WriteLine("Git task 3- making chnages but not committing");
         }
     }
 }
