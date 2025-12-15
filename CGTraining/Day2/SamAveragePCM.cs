@@ -1,14 +1,17 @@
 ﻿using System;
 
-class SamAveragePCM
+namespace CGTraining.Day2
 {
-    public static double CalculateAverage()
+    public class SamAveragePCM
     {
-        int maths = 94;
-        int physics = 95;
-        int chemistry = 96;
-        int total = maths + physics + chemistry;
-        double average = total / 3.0;
-        return average;
+        public static double CalculateAverage()
+        {
+            int maths = 94;
+            int physics = 95;
+            int chemistry = 96;
+            int total = maths + physics + chemistry;
+            double average = total / 3.0;
+            return average;
+        }
     }
 }
