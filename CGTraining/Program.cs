@@ -47,8 +47,9 @@ namespace CGTraining
             //Temperature.checkTemperature();
             //Restaurant.Open();
 
-            Console.WriteLine("Addition: " + Calculator.Add(10, 5));
-            Console.WriteLine("Subtraction: " + Calculator.Subtract(10, 5));
+            //Console.WriteLine("Addition: " + Calculator.Add(10, 5));
+            //Console.WriteLine("Subtraction: " + Calculator.Subtract(10, 5));
+            UserService.Print();
             Console.WriteLine("\nPress any key to exit...");
             Console.ReadKey();
         }
