@@ -1,5 +1,5 @@
 ﻿using System;
-using CGTraining;
+using CGTraining.Day1;
 
 class Program
 {
