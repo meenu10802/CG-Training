@@ -12,7 +12,11 @@ namespace CGTraining.Day2.ExtraQuestions
             int orderValue = int.Parse(Console.ReadLine());
             Console.WriteLine("Are you a Prime customer(true/false):");
             bool isPrime = bool.Parse(Console.ReadLine());
-            if (isRestaurantOpen && isDeliveryPartnerAvailable && (orderValue >= minOrderAmount || isPrime))
+            if (orderValue==null)
+            {
+                Console.WriteLine("Null orderValue");
+            }
+                if (isRestaurantOpen && isDeliveryPartnerAvailable && (orderValue >= minOrderAmount || isPrime))
             {
                 Console.WriteLine("Order Accepted");
             }
