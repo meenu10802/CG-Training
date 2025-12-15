@@ -45,7 +45,10 @@ namespace CGTraining
             //absoluteValue.flipped();
             //divisibilityTest.isDivisbleOrNot();
             //Temperature.checkTemperature();
-            Restaurant.Open();
+            //Restaurant.Open();
+
+            Console.WriteLine("Addition: " + Calculator.Add(10, 5));
+            Console.WriteLine("Subtraction: " + Calculator.Subtract(10, 5));
             Console.WriteLine("\nPress any key to exit...");
             Console.ReadKey();
         }
