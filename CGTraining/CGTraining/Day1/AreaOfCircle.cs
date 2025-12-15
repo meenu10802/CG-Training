@@ -4,16 +4,18 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CGTraining
+namespace CGTraining.Day1
 {
-   public class VolumeOfCylinder
+    internal class AreaOfCircle
     {
         public static void Run()
         {
-            Console.WriteLine("Enter radiues and height");
+            Console.Write("Enter radius: ");
             double r = double.Parse(Console.ReadLine());
-            double h = double.Parse(Console.ReadLine());
-            Console.WriteLine(Math.PI * r * r * h);
+
+            double area = Math.PI * r * r;
+            Console.WriteLine("Area = " + area);
+            Console.WriteLine();
         }
     }
 }

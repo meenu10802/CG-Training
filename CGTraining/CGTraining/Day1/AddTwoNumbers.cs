@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Transactions;
 
-namespace CGTraining
+namespace CGTraining.Day1
 {
     public class AddTwoNumbers
     {

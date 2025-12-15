@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CGTraining
+namespace CGTraining.Day1
 {
     internal class CelsiusToFahrenheit
     {
@@ -13,7 +13,7 @@ namespace CGTraining
             Console.Write("Enter Celsius: ");
             double c=double.Parse(Console.ReadLine());
 
-            double f = (c *9/5)+32;
+            double f = c *9/5+32;
             Console.WriteLine("Fahrenheit= " + f);
             Console.WriteLine();
         }

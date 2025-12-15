@@ -15,5 +15,10 @@ class Program
         PowerCalculation.Run();
         AverageOfThree.Run();
         KmToMiles.Run();
+        int harryAge = FindAge.CalculateAge();
+        Console.WriteLine("Harry's age in 2024 is " + harryAge);
+
+        double samAverage = SamAveragePCM.CalculateAverage();
+        Console.WriteLine("Sam's average mark in PCM is " + samAverage);
     }
 }
