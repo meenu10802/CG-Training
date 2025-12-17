@@ -49,6 +49,18 @@ namespace CGTraining
 
             //Console.WriteLine("Addition: " + Calculator.Add(10, 5));
             //Console.WriteLine("Subtraction: " + Calculator.Subtract(10, 5));
+            QuotientAndRemainder.Calculate();
+            IntOperation.PerformIntOperations();
+            DoubleOpt.PerformDoubleOperations();
+            CelsiusToFahrenheit2.ConvertTemp();
+            FahrenheitToCelsius.ConvertTemp();
+            TotalIncome.CalculateIncome();
+            SwapNumbers.Swap();
+            TripDetails.ShowTrip();
+            TriangularParkRounds.CalculateRounds();
+            ChocolateDistribution.Distribute();
+            SimpleInterest2.CalculateSI();
+            WeightConversion.ConvertPoundsToKg();
             UserService.Print();
             Console.WriteLine("\nPress any key to exit...");
             Console.ReadKey();
