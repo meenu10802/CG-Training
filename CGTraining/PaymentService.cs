@@ -10,7 +10,9 @@ namespace CGTraining
     {
         public bool ProcessPayment(Payment payment)
         {
+            Console.WriteLine("One line in main");
             return true;
+          
         }
 
     }
