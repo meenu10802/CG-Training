@@ -12,7 +12,7 @@ namespace CGTraining
         {
             if (username == null || password == null)
                 return false;
-            return true;
+            return true; //checking cherry pick
         }
     }
 }
