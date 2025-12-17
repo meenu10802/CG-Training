@@ -49,7 +49,20 @@ namespace CGTraining
 
             //Console.WriteLine("Addition: " + Calculator.Add(10, 5));
             //Console.WriteLine("Subtraction: " + Calculator.Subtract(10, 5));
-            UserService.Print();
+
+            All.QuotientAndRemainder();
+            All.PerformIntOperations();
+            All.PerformDoubleOperations();
+            All.CelsiusToFahrenheit();
+            All.FahrenheitToCelsius();
+            All.CalculateIncome();
+            All.SwapNumbers();
+            All.ShowTrip();
+            All.CalculateRounds();
+            All.DistributeChocolates();
+            All.CalculateSimpleInterest();
+            All.ConvertPoundsToKg();
+            //UserService.Print();
             Console.WriteLine("\nPress any key to exit...");
             Console.ReadKey();
         }
