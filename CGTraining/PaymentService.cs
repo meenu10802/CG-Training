@@ -10,10 +10,7 @@ namespace CGTraining
     {
         public bool ProcessPayment(Payment payment)
         {
-            if (payment == null)
-                return false;
-            return true;
-
+            return payment.Amount > 0;
         }
 
     }
